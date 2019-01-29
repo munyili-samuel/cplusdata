@@ -1,5 +1,5 @@
 #include <iostream>
-#include "pointers.cpp"
+#include "memory.cpp"
 #include "references.cpp"
 
 using namespace std;
@@ -7,23 +7,22 @@ using namespace std;
 
 int main() {
 
-    Pointers pointers{};
+    cout << "Working with pointers ......" << endl;
 
-    pointers.showName();
+    Memory memory{};
 
-    pointers.showDifference();
-
-    pointers.handleReferences();
+    memory.printValues();
 
 
-    cout << "\n\n\n\n" << endl;
-    References references{};
-    int initialNum = 10;
-    references.changeNumber(initialNum);
-    cout << "In the main, the initial number is now " << initialNum << endl;
+    Person *person = new Person{"Samuel", "Munyili", 29};
 
-    references.changeNumberRef(initialNum);
-    cout << "In the main, the initial number after referencing is now " << initialNum << endl;
+    cout << "The person is: FirstName: "<< person->getFirstName() << ", Last Name: " << person->getLastName()
+    << " and age: " << person->getAge() << endl;
+
+    delete person;
+
+    cout << "After all that.....\nThe person is: FirstName: "<< person->getFirstName() << ", Last Name: " << person->getLastName()
+         << " and age: " << person->getAge() << endl;
 
     return 0;
 }

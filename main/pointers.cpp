@@ -2,7 +2,7 @@
 // Created by Samuel Munyili on 2019-01-29.
 //
 
-#include "pointers.h"
+#include "headers/pointers.h"
 #include <iostream>
 
 using namespace std;

@@ -6,29 +6,31 @@
 
 #IncludeRegexTransform: 
 
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h
+
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/references.h
+
 /Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp
 iostream
 -
-pointers.cpp
-/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp
+memory.cpp
+/Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp
 references.cpp
 /Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
 
-/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp
-pointers.h
-/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp
+stdio.h
+-
 iostream
 -
-
-/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h
+headers/memory.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
-references.h
-/Users/s.munyili/CLionProjects/NaolSoft/main/references.h
+headers/references.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/references.h
 stdio.h
 /Users/s.munyili/CLionProjects/NaolSoft/main/stdio.h
 iostream
 -
-
-/Users/s.munyili/CLionProjects/NaolSoft/main/references.h
 

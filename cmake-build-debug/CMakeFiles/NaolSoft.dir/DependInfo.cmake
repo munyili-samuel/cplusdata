@@ -6,6 +6,7 @@ set(CMAKE_DEPENDS_LANGUAGES
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/s.munyili/CLionProjects/NaolSoft/connection/connect.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/connection/connect.cpp.o"
   "/Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/main.cpp.o"
+  "/Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/memory.cpp.o"
   "/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/pointers.cpp.o"
   "/Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/references.cpp.o"
   )

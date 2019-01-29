@@ -177,6 +177,33 @@ main/main.cpp.s:
 	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/main.cpp.s
 .PHONY : main/main.cpp.s
 
+main/memory.o: main/memory.cpp.o
+
+.PHONY : main/memory.o
+
+# target to build an object file
+main/memory.cpp.o:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/memory.cpp.o
+.PHONY : main/memory.cpp.o
+
+main/memory.i: main/memory.cpp.i
+
+.PHONY : main/memory.i
+
+# target to preprocess a source file
+main/memory.cpp.i:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/memory.cpp.i
+.PHONY : main/memory.cpp.i
+
+main/memory.s: main/memory.cpp.s
+
+.PHONY : main/memory.s
+
+# target to generate assembly for a file
+main/memory.cpp.s:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/memory.cpp.s
+.PHONY : main/memory.cpp.s
+
 main/pointers.o: main/pointers.cpp.o
 
 .PHONY : main/pointers.o
@@ -246,6 +273,9 @@ help:
 	@echo "... main/main.o"
 	@echo "... main/main.i"
 	@echo "... main/main.s"
+	@echo "... main/memory.o"
+	@echo "... main/memory.i"
+	@echo "... main/memory.s"
 	@echo "... main/pointers.o"
 	@echo "... main/pointers.i"
 	@echo "... main/pointers.s"

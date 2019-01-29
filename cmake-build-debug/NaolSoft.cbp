@@ -88,19 +88,25 @@
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/connection/connect.h">
 			<Option target="NaolSoft"/>
 		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/pointers.h">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/references.h">
+			<Option target="NaolSoft"/>
+		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp">
 			<Option target="NaolSoft"/>
 		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp">
 			<Option target="NaolSoft"/>
 		</Unit>
-		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h">
-			<Option target="NaolSoft"/>
-		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp">
-			<Option target="NaolSoft"/>
-		</Unit>
-		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/references.h">
 			<Option target="NaolSoft"/>
 		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/CMakeLists.txt">
