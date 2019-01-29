@@ -6,6 +6,14 @@
 
 #IncludeRegexTransform: 
 
+/Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp
+iostream
+-
+pointers.cpp
+/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp
+references.cpp
+/Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
+
 /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp
 pointers.h
 /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h
@@ -13,4 +21,14 @@ iostream
 -
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h
+
+/Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
+references.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/references.h
+stdio.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/stdio.h
+iostream
+-
+
+/Users/s.munyili/CLionProjects/NaolSoft/main/references.h
 
