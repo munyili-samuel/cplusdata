@@ -204,6 +204,33 @@ main/pointers.cpp.s:
 	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/pointers.cpp.s
 .PHONY : main/pointers.cpp.s
 
+main/references.o: main/references.cpp.o
+
+.PHONY : main/references.o
+
+# target to build an object file
+main/references.cpp.o:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/references.cpp.o
+.PHONY : main/references.cpp.o
+
+main/references.i: main/references.cpp.i
+
+.PHONY : main/references.i
+
+# target to preprocess a source file
+main/references.cpp.i:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/references.cpp.i
+.PHONY : main/references.cpp.i
+
+main/references.s: main/references.cpp.s
+
+.PHONY : main/references.s
+
+# target to generate assembly for a file
+main/references.cpp.s:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/references.cpp.s
+.PHONY : main/references.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -222,6 +249,9 @@ help:
 	@echo "... main/pointers.o"
 	@echo "... main/pointers.i"
 	@echo "... main/pointers.s"
+	@echo "... main/references.o"
+	@echo "... main/references.i"
+	@echo "... main/references.s"
 .PHONY : help
 
 

@@ -97,6 +97,12 @@
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h">
 			<Option target="NaolSoft"/>
 		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/references.h">
+			<Option target="NaolSoft"/>
+		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
