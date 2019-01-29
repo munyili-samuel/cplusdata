@@ -25,7 +25,7 @@ public:
     }
 };
 
-class Person{
+class APerson{
 private:
     string firstName;
     string lastName;
@@ -33,17 +33,17 @@ private:
     int age;
 
 public:
-    Person(){
+    APerson(){
         cout<<"This is the default constructor" << endl;
     }
 
-    Person(string firstName, string lastName, int age){
+    APerson(string firstName, string lastName, int age){
         this->age = age;
         this->firstName= firstName;
         this->lastName = lastName;
     }
 
-    ~Person(){
+    ~APerson(){
         cout << "The destructor was called" << endl;
     }
 
@@ -52,7 +52,7 @@ public:
     }
 
     void setFirstName(const string &firstName) {
-        Person::firstName = firstName;
+        APerson::firstName = firstName;
     }
 
     const string &getLastName() const {
@@ -60,7 +60,7 @@ public:
     }
 
     void setLastName(const string &lastName) {
-        Person::lastName = lastName;
+        APerson::lastName = lastName;
     }
 
     int getAge() const {
@@ -68,10 +68,10 @@ public:
     }
 
     void setAge(int age) {
-        Person::age = age;
+        APerson::age = age;
     }
 
-    friend ostream &operator<<(ostream &os, const Person &person) {
+    friend ostream &operator<<(ostream &os, const APerson &person) {
         os << "firstName: " << person.firstName << " lastName: " << person.lastName << " age: " << person.age;
         return os;
     }

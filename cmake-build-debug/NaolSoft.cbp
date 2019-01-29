@@ -91,6 +91,9 @@
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h">
 			<Option target="NaolSoft"/>
 		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/person.h">
+			<Option target="NaolSoft"/>
+		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/headers/pointers.h">
 			<Option target="NaolSoft"/>
 		</Unit>
@@ -101,6 +104,9 @@
 			<Option target="NaolSoft"/>
 		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/person.cpp">
 			<Option target="NaolSoft"/>
 		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp">

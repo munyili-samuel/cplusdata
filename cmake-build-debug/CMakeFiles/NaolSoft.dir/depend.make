@@ -5,13 +5,18 @@ CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: ../connection/connect.cpp
 CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: ../connection/connect.h
 
 CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/headers/memory.h
+CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/headers/person.h
 CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/headers/references.h
 CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/main.cpp
 CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/memory.cpp
+CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/person.cpp
 CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/references.cpp
 
 CMakeFiles/NaolSoft.dir/main/memory.cpp.o: ../main/headers/memory.h
 CMakeFiles/NaolSoft.dir/main/memory.cpp.o: ../main/memory.cpp
+
+CMakeFiles/NaolSoft.dir/main/person.cpp.o: ../main/headers/person.h
+CMakeFiles/NaolSoft.dir/main/person.cpp.o: ../main/person.cpp
 
 CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: ../main/headers/pointers.h
 CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: ../main/pointers.cpp

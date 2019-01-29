@@ -1,28 +1,73 @@
 #include <iostream>
 #include "memory.cpp"
 #include "references.cpp"
+#include "person.cpp"
 
 using namespace std;
 
+void PassByValue(int num1) {
+    cout << "Inside the PassByValue function" << endl;
+    num1 += 100;
+    cout << "Inside the PassByValue the value of num1 is now " << num1 << endl;
+}
+
+void PassByRef(int &pNum) {
+    cout << "Inside the PassByValue function" << endl;
+    pNum = 50;
+    cout << "Inside the PassByValue the value of pNum is now " << pNum << endl;
+}
+
+void ModifyPerson(Person &person) {
+    cout << "\n\nModifying ....... " << endl;
+    person.height = 185;
+    person.age = 35;
+    person.name = "Sam Junior";
+    person.weight = 75;
+}
 
 int main() {
+    int num1;
 
-    cout << "Working with pointers ......" << endl;
+    int *pNum = new int;
 
-    Memory memory{};
+    num1 = 3;
+    *pNum = 5;
 
-    memory.printValues();
+    PassByValue(num1);
+
+    cout << "Inside the main function num1 is " << num1 << endl;
+
+    PassByRef(*pNum);
+
+    cout << "Inside the main function pNum is " << *pNum << endl;
+
+    PassByValue(*pNum);
 
 
-    Person *person = new Person{"Samuel", "Munyili", 29};
+    auto *pDouble = new double;
+    *pDouble = 10;
 
-    cout << "The person is: FirstName: "<< person->getFirstName() << ", Last Name: " << person->getLastName()
-    << " and age: " << person->getAge() << endl;
+    cout << "Before Deallocate pDouble is now " << *pDouble << endl;
 
-    delete person;
+    delete pDouble;
 
-    cout << "After all that.....\nThe person is: FirstName: "<< person->getFirstName() << ", Last Name: " << person->getLastName()
-         << " and age: " << person->getAge() << endl;
+    cout << "After Deallocate pDouble is now " << *pDouble << endl;
+
+    Person person{"Samuel Munyili", 29, 183, 68};
+
+    cout << "The person is:\nAge = " << person.age
+         << "\nName: " << person.name
+         << "\nWeight: " << person.weight
+         << "\nHeight: " << person.height
+         << endl;
+
+    ModifyPerson(person);
+
+    cout << "The person is:\nAge = " << person.age
+         << "\nName: " << person.name
+         << "\nWeight: " << person.weight
+         << "\nHeight: " << person.height
+         << endl;
 
     return 0;
 }

@@ -8,6 +8,8 @@
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h
 
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/person.h
+
 /Users/s.munyili/CLionProjects/NaolSoft/main/headers/references.h
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp
@@ -17,6 +19,8 @@ memory.cpp
 /Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp
 references.cpp
 /Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
+person.cpp
+/Users/s.munyili/CLionProjects/NaolSoft/main/person.cpp
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/memory.cpp
 stdio.h
@@ -25,6 +29,14 @@ iostream
 -
 headers/memory.h
 /Users/s.munyili/CLionProjects/NaolSoft/main/headers/memory.h
+
+/Users/s.munyili/CLionProjects/NaolSoft/main/person.cpp
+stdio.h
+-
+iostream
+-
+headers/person.h
+/Users/s.munyili/CLionProjects/NaolSoft/main/headers/person.h
 
 /Users/s.munyili/CLionProjects/NaolSoft/main/references.cpp
 headers/references.h

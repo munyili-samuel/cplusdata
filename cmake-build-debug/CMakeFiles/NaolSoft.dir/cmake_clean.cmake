@@ -4,6 +4,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/NaolSoft.dir/main/pointers.cpp.o"
   "CMakeFiles/NaolSoft.dir/main/references.cpp.o"
   "CMakeFiles/NaolSoft.dir/main/memory.cpp.o"
+  "CMakeFiles/NaolSoft.dir/main/person.cpp.o"
   "NaolSoft.pdb"
   "NaolSoft"
 )
