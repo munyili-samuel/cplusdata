@@ -88,7 +88,13 @@
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/connection/connect.h">
 			<Option target="NaolSoft"/>
 		</Unit>
-		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main.cpp">
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp">
+			<Option target="NaolSoft"/>
+		</Unit>
+		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.h">
 			<Option target="NaolSoft"/>
 		</Unit>
 		<Unit filename="/Users/s.munyili/CLionProjects/NaolSoft/CMakeLists.txt">

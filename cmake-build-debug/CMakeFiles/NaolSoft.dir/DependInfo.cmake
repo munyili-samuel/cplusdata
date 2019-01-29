@@ -5,7 +5,8 @@ set(CMAKE_DEPENDS_LANGUAGES
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
   "/Users/s.munyili/CLionProjects/NaolSoft/connection/connect.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/connection/connect.cpp.o"
-  "/Users/s.munyili/CLionProjects/NaolSoft/main.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main.cpp.o"
+  "/Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/main.cpp.o"
+  "/Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp" "/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles/NaolSoft.dir/main/pointers.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "AppleClang")
 

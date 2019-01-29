@@ -57,18 +57,18 @@ include CMakeFiles/NaolSoft.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/NaolSoft.dir/flags.make
 
-CMakeFiles/NaolSoft.dir/main.cpp.o: CMakeFiles/NaolSoft.dir/flags.make
-CMakeFiles/NaolSoft.dir/main.cpp.o: ../main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NaolSoft.dir/main.cpp.o"
-	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NaolSoft.dir/main.cpp.o -c /Users/s.munyili/CLionProjects/NaolSoft/main.cpp
+CMakeFiles/NaolSoft.dir/main/main.cpp.o: CMakeFiles/NaolSoft.dir/flags.make
+CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/main.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object CMakeFiles/NaolSoft.dir/main/main.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NaolSoft.dir/main/main.cpp.o -c /Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp
 
-CMakeFiles/NaolSoft.dir/main.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NaolSoft.dir/main.cpp.i"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/s.munyili/CLionProjects/NaolSoft/main.cpp > CMakeFiles/NaolSoft.dir/main.cpp.i
+CMakeFiles/NaolSoft.dir/main/main.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NaolSoft.dir/main/main.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp > CMakeFiles/NaolSoft.dir/main/main.cpp.i
 
-CMakeFiles/NaolSoft.dir/main.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NaolSoft.dir/main.cpp.s"
-	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/s.munyili/CLionProjects/NaolSoft/main.cpp -o CMakeFiles/NaolSoft.dir/main.cpp.s
+CMakeFiles/NaolSoft.dir/main/main.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NaolSoft.dir/main/main.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/s.munyili/CLionProjects/NaolSoft/main/main.cpp -o CMakeFiles/NaolSoft.dir/main/main.cpp.s
 
 CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: CMakeFiles/NaolSoft.dir/flags.make
 CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: ../connection/connect.cpp
@@ -83,19 +83,34 @@ CMakeFiles/NaolSoft.dir/connection/connect.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NaolSoft.dir/connection/connect.cpp.s"
 	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/s.munyili/CLionProjects/NaolSoft/connection/connect.cpp -o CMakeFiles/NaolSoft.dir/connection/connect.cpp.s
 
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: CMakeFiles/NaolSoft.dir/flags.make
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: ../main/pointers.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/NaolSoft.dir/main/pointers.cpp.o"
+	/Library/Developer/CommandLineTools/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/NaolSoft.dir/main/pointers.cpp.o -c /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp
+
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/NaolSoft.dir/main/pointers.cpp.i"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp > CMakeFiles/NaolSoft.dir/main/pointers.cpp.i
+
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/NaolSoft.dir/main/pointers.cpp.s"
+	/Library/Developer/CommandLineTools/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/s.munyili/CLionProjects/NaolSoft/main/pointers.cpp -o CMakeFiles/NaolSoft.dir/main/pointers.cpp.s
+
 # Object files for target NaolSoft
 NaolSoft_OBJECTS = \
-"CMakeFiles/NaolSoft.dir/main.cpp.o" \
-"CMakeFiles/NaolSoft.dir/connection/connect.cpp.o"
+"CMakeFiles/NaolSoft.dir/main/main.cpp.o" \
+"CMakeFiles/NaolSoft.dir/connection/connect.cpp.o" \
+"CMakeFiles/NaolSoft.dir/main/pointers.cpp.o"
 
 # External object files for target NaolSoft
 NaolSoft_EXTERNAL_OBJECTS =
 
-NaolSoft: CMakeFiles/NaolSoft.dir/main.cpp.o
+NaolSoft: CMakeFiles/NaolSoft.dir/main/main.cpp.o
 NaolSoft: CMakeFiles/NaolSoft.dir/connection/connect.cpp.o
+NaolSoft: CMakeFiles/NaolSoft.dir/main/pointers.cpp.o
 NaolSoft: CMakeFiles/NaolSoft.dir/build.make
 NaolSoft: CMakeFiles/NaolSoft.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Linking CXX executable NaolSoft"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/s.munyili/CLionProjects/NaolSoft/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable NaolSoft"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/NaolSoft.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

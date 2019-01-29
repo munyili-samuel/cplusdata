@@ -3,4 +3,4 @@ project(NaolSoft)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(NaolSoft main.cpp connection/connect.cpp connection/connect.h)
+add_executable(NaolSoft main/main.cpp connection/connect.cpp connection/connect.h main/pointers.cpp main/pointers.h)

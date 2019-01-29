@@ -150,32 +150,59 @@ connection/connect.cpp.s:
 	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/connection/connect.cpp.s
 .PHONY : connection/connect.cpp.s
 
-main.o: main.cpp.o
+main/main.o: main/main.cpp.o
 
-.PHONY : main.o
+.PHONY : main/main.o
 
 # target to build an object file
-main.cpp.o:
-	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main.cpp.o
-.PHONY : main.cpp.o
+main/main.cpp.o:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/main.cpp.o
+.PHONY : main/main.cpp.o
 
-main.i: main.cpp.i
+main/main.i: main/main.cpp.i
 
-.PHONY : main.i
+.PHONY : main/main.i
 
 # target to preprocess a source file
-main.cpp.i:
-	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main.cpp.i
-.PHONY : main.cpp.i
+main/main.cpp.i:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/main.cpp.i
+.PHONY : main/main.cpp.i
 
-main.s: main.cpp.s
+main/main.s: main/main.cpp.s
 
-.PHONY : main.s
+.PHONY : main/main.s
 
 # target to generate assembly for a file
-main.cpp.s:
-	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main.cpp.s
-.PHONY : main.cpp.s
+main/main.cpp.s:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/main.cpp.s
+.PHONY : main/main.cpp.s
+
+main/pointers.o: main/pointers.cpp.o
+
+.PHONY : main/pointers.o
+
+# target to build an object file
+main/pointers.cpp.o:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/pointers.cpp.o
+.PHONY : main/pointers.cpp.o
+
+main/pointers.i: main/pointers.cpp.i
+
+.PHONY : main/pointers.i
+
+# target to preprocess a source file
+main/pointers.cpp.i:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/pointers.cpp.i
+.PHONY : main/pointers.cpp.i
+
+main/pointers.s: main/pointers.cpp.s
+
+.PHONY : main/pointers.s
+
+# target to generate assembly for a file
+main/pointers.cpp.s:
+	$(MAKE) -f CMakeFiles/NaolSoft.dir/build.make CMakeFiles/NaolSoft.dir/main/pointers.cpp.s
+.PHONY : main/pointers.cpp.s
 
 # Help Target
 help:
@@ -189,9 +216,12 @@ help:
 	@echo "... connection/connect.o"
 	@echo "... connection/connect.i"
 	@echo "... connection/connect.s"
-	@echo "... main.o"
-	@echo "... main.i"
-	@echo "... main.s"
+	@echo "... main/main.o"
+	@echo "... main/main.i"
+	@echo "... main/main.s"
+	@echo "... main/pointers.o"
+	@echo "... main/pointers.i"
+	@echo "... main/pointers.s"
 .PHONY : help
 
 

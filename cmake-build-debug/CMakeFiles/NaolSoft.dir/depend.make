@@ -4,5 +4,8 @@
 CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: ../connection/connect.cpp
 CMakeFiles/NaolSoft.dir/connection/connect.cpp.o: ../connection/connect.h
 
-CMakeFiles/NaolSoft.dir/main.cpp.o: ../main.cpp
+CMakeFiles/NaolSoft.dir/main/main.cpp.o: ../main/main.cpp
+
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: ../main/pointers.cpp
+CMakeFiles/NaolSoft.dir/main/pointers.cpp.o: ../main/pointers.h
 
