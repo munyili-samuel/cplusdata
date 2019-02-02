@@ -1,73 +1,58 @@
 #include <iostream>
-#include "memory.cpp"
-#include "references.cpp"
-#include "person.cpp"
+#include "headers/Student.h"
+#include "headers/Teacher.h"
+#include "headers/Course.h"
 
 using namespace std;
 
-void PassByValue(int num1) {
-    cout << "Inside the PassByValue function" << endl;
-    num1 += 100;
-    cout << "Inside the PassByValue the value of num1 is now " << num1 << endl;
-}
-
-void PassByRef(int &pNum) {
-    cout << "Inside the PassByValue function" << endl;
-    pNum = 50;
-    cout << "Inside the PassByValue the value of pNum is now " << pNum << endl;
-}
-
-void ModifyPerson(Person &person) {
-    cout << "\n\nModifying ....... " << endl;
-    person.height = 185;
-    person.age = 35;
-    person.name = "Sam Junior";
-    person.weight = 75;
-}
-
 int main() {
-    int num1;
 
-    int *pNum = new int;
+    Student *student1 = new Student(
+            "Samuel",
+            "Munyili",
+            29,
+            "Mirema",
+            "Nairobi",
+            12345
+    );
+    Student *student2 = new Student(
+            "Esther",
+            "Mutua",
+            21,
+            "Ruaraka",
+            "Nairobi",
+            123456
+    );
+    Student *student3 = new Student(
+            "Derrick",
+            "Korir",
+            25,
+            "Zimmer",
+            "Nairobi",
+            1234567
+    );
 
-    num1 = 3;
-    *pNum = 5;
-
-    PassByValue(num1);
-
-    cout << "Inside the main function num1 is " << num1 << endl;
-
-    PassByRef(*pNum);
-
-    cout << "Inside the main function pNum is " << *pNum << endl;
-
-    PassByValue(*pNum);
+    Teacher *teacher = new Teacher(
+            "Kesiena",
+            "Akpobome",
+            21,
+            "Dojo",
+            "Lagos",
+            987654321
+    );
 
 
-    auto *pDouble = new double;
-    *pDouble = 10;
+    Course *course = new Course();
+    course->title = "Intermediate C++";
+    course->students[0] = *student1;
+    course->students[1] = *student2;
+    course->students[2] = *student3;
 
-    cout << "Before Deallocate pDouble is now " << *pDouble << endl;
+    course->teacher = *teacher;
 
-    delete pDouble;
+    cout << "The course is " << course->title << endl;
 
-    cout << "After Deallocate pDouble is now " << *pDouble << endl;
-
-    Person person{"Samuel Munyili", 29, 183, 68};
-
-    cout << "The person is:\nAge = " << person.age
-         << "\nName: " << person.name
-         << "\nWeight: " << person.weight
-         << "\nHeight: " << person.height
-         << endl;
-
-    ModifyPerson(person);
-
-    cout << "The person is:\nAge = " << person.age
-         << "\nName: " << person.name
-         << "\nWeight: " << person.weight
-         << "\nHeight: " << person.height
-         << endl;
+    course->teacher.GradeStudent();
 
     return 0;
 }
